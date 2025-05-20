@@ -1,5 +1,5 @@
-import cv2
 import os
+import cv2
 
 def get_frames(video_path, n_frames=15):
     """Extracts a fixed number of evenly spaced frames from a video."""
