@@ -1,8 +1,8 @@
 import sys
 import os
 
-# 🔧 Add the parent directory to sys.path so it can find 'src'
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# ✅ Add project root (not just parent) to sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.preprocess import prepare_dataset
 
