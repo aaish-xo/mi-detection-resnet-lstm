@@ -10,10 +10,12 @@ This repository includes adapted code from the following sources:
 
 # Acknowledgements
 
-This repository reuses and adapts components from the following open-source project:
+This repository reuses and adapts components from the excellent open-source work by [UtopAIBuilder/Grad-CAM-for-video-and-regression-task](https://github.com/UtopAIBuilder/Grad-CAM-for-video-and-regression-task).
 
-- [**UtopAIBuilder/Grad-CAM-for-video-and-regression-task**](https://github.com/UtopAIBuilder/Grad-CAM-for-video-and-regression-task)  
-  Key methods for visualising spatiotemporal model attention using Grad-CAM were adapted from this repository. 
+- The **Grad-CAM logic** used to visualise attention in hybrid models (e.g., ResNet-LSTM) for video-based classification was adapted from their implementation.
+- Components of the training loop and model architecture for spatiotemporal modeling were also influenced by their example notebooks.
 
-I am grateful to the authors for making their work available.
+I am grateful to the authors for making their work publicly available.
+
+
 
