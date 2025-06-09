@@ -9,7 +9,11 @@ Note: The dataset is not included due to license restrictions. Please request ac
 This repository includes adapted code from the following sources:
 
 # Acknowledgements
+
 This repository reuses and adapts components from the following open-source project:
-UtopAIBuilder/Grad-CAM-for-video-and-regression-task
-Key methods for visualising spatiotemporal model attention using Grad-CAM were adapted from this repository.
-I amgrateful to the authors for making their work available.
+
+- [**UtopAIBuilder/Grad-CAM-for-video-and-regression-task**](https://github.com/UtopAIBuilder/Grad-CAM-for-video-and-regression-task)  
+  Key methods for visualising spatiotemporal model attention using Grad-CAM were adapted from this repository. 
+
+I am grateful to the authors for making their work available.
+
